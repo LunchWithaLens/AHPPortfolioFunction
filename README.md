@@ -1,6 +1,6 @@
 # Azure Portfolio Function
 
-Azure Portfolio function to get weights in Analytic Hierarchy Process
+Azure python based AHP Portfolio function to get weights in Analytic Hierarchy Process
 The format of the matrix being sent over will be like {"matrix":"1,A,B,c,C,C,a,1,A,c,B,C,b,a,1,c,B,C,C,C,C,1,C,C,c,b,b,c,1,A,c,c,c,c,a,1"}
 The matrix represents the relationship between projects - 1 is identity or equally important, 0 is no relationship, 
 then c, b, a, A, B, C represent extremely less important than up to extremely more important than.
